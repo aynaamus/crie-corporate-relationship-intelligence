@@ -1,0 +1,14 @@
+# Streamlit's own theme options. Light or dark still follows the viewer's
+# system setting; only the accent colour is set for each.
+[theme.light]
+primaryColor = "#2563EB"
+
+[theme.dark]
+primaryColor = "#60A5FA"
+
+[client]
+# Hide developer menu items such as "Deploy".
+toolbarMode = "viewer"
+
+[browser]
+gatherUsageStats = false

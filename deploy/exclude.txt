@@ -1,0 +1,22 @@
+# Paths left out of the deployment repository (extended regular expressions,
+# matched against repository-relative paths). See docs/PUBLIC_DEMO.md, section 6.
+# Real SPP case data and outputs
+^data/
+^reports/
+# GLEIF-derived working samples
+^corporate_relationships_named\.csv$
+^gleif_relationships_sample\.csv$
+# Production operations procedure and local backup tooling
+^docs/REGISTRY_ACTIVATION\.md$
+^scripts/backup_production_db\.zsh$
+^scripts/cloud_backup\.zsh$
+^tests/test_backup_script\.py$
+^tests/test_cloud_backup\.py$
+^tests/fixtures/backup_stubs/
+# Tests that read the real case's data or its private fixture
+^tests/test_e2e_spp_workflow\.py$
+^tests/test_compare_disclosures\.py$
+# The local application account's grant, not used by a hosted installation
+^sql/e2e/m23a_e2e_05_grant\.sql$
+# Browser download artifact
+^companyfacts\.zip-2\.download/

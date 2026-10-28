@@ -1,0 +1,35 @@
+
+# Python environment
+.venv/
+__pycache__/
+*.pyc
+
+# Secrets
+.env
+.env.*
+
+# Raw downloaded datasets
+*.xml
+*.XML
+*.zip
+*.dump
+BasicCompanyDataAsOneFile*.csv
+entities.ftm.json
+# ...except the small synthetic GLEIF test files (Milestone 23B.2B-2),
+# which are not downloaded data. Any other XML there stays ignored.
+!tests/fixtures/gleif/*_synthetic.xml
+
+# Initial analysis output
+gleif_sample_1000.csv
+
+# macOS
+.DS_Store
+
+# Versioned report runs (retained outside Git)
+reports/runs/
+
+# Real-case end-to-end fixtures (Milestone 23A): never commit.
+tests/fixtures/private/
+
+# Streamlit secrets (hosting credentials): never commit.
+.streamlit/secrets.toml

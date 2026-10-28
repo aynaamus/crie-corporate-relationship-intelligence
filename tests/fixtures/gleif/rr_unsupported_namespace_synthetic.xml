@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rr:RelationshipData xmlns:rr="http://www.gleif.org/data/schema/rr/2099">
+<rr:Header><rr:ContentDate>2026-10-22T09:00:01.250Z</rr:ContentDate><rr:FileContent>GLEIF_FULL_PUBLISHED</rr:FileContent><rr:RecordCount>1</rr:RecordCount></rr:Header>
+<rr:RelationshipRecords>
+<rr:RelationshipRecord>
+  <rr:Relationship><rr:StartNode><rr:NodeID>SYNTHFIXA00000000028</rr:NodeID><rr:NodeIDType>LEI</rr:NodeIDType></rr:StartNode><rr:EndNode><rr:NodeID>SYNTHFIXB00000000023</rr:NodeID><rr:NodeIDType>LEI</rr:NodeIDType></rr:EndNode><rr:RelationshipType>IS_DIRECTLY_CONSOLIDATED_BY</rr:RelationshipType><rr:RelationshipPeriods><rr:RelationshipPeriod><rr:StartDate>2023-01-01T00:00:00Z</rr:StartDate><rr:EndDate>2023-12-31T00:00:00Z</rr:EndDate><rr:PeriodType>ACCOUNTING_PERIOD</rr:PeriodType></rr:RelationshipPeriod><rr:RelationshipPeriod><rr:StartDate>2019-05-01T00:00:00Z</rr:StartDate><rr:PeriodType>RELATIONSHIP_PERIOD</rr:PeriodType></rr:RelationshipPeriod></rr:RelationshipPeriods><rr:RelationshipStatus>ACTIVE</rr:RelationshipStatus><rr:RelationshipQualifiers><rr:RelationshipQualifier><rr:QualifierDimension>ACCOUNTING_STANDARD</rr:QualifierDimension><rr:QualifierCategory>IFRS</rr:QualifierCategory></rr:RelationshipQualifier></rr:RelationshipQualifiers><rr:RelationshipQuantifiers><rr:RelationshipQuantifier><rr:MeasurementMethod>ACCOUNTING_CONSOLIDATION</rr:MeasurementMethod><rr:QuantifierAmount>100</rr:QuantifierAmount><rr:QuantifierUnits>PERCENTAGE</rr:QuantifierUnits></rr:RelationshipQuantifier></rr:RelationshipQuantifiers></rr:Relationship>
+  <rr:Registration><rr:InitialRegistrationDate>2018-03-01T08:00:00Z</rr:InitialRegistrationDate><rr:LastUpdateDate>2026-01-15T10:00:00Z</rr:LastUpdateDate><rr:RegistrationStatus>PUBLISHED</rr:RegistrationStatus><rr:NextRenewalDate>2027-03-01T08:00:00Z</rr:NextRenewalDate><rr:ManagingLOU>SYNTHLOU000000000041</rr:ManagingLOU><rr:ValidationSources>ENTITY_SUPPLIED_ONLY</rr:ValidationSources><rr:ValidationDocuments>OTHER_OFFICIAL_DOCUMENTS</rr:ValidationDocuments></rr:Registration>
+</rr:RelationshipRecord>
+</rr:RelationshipRecords>
+</rr:RelationshipData>
